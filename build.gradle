@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'net.serenity-bdd:serenity-core:4.1.20'
+    testImplementation 'net.serenity-bdd:serenity-cucumber:4.1.20'
+    testImplementation 'io.appium:java-client:9.2.2'
+    testImplementation 'junit:junit:4.13.2'
+}
